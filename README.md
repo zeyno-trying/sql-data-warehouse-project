@@ -5,7 +5,7 @@ A data warehouse I built to learn data engineering fundamentals, following the "
 ## Overview
 
 The project ingests data from 2 different sources CRM and ERP (3 tables each) and moves it through a medallion architecture (bronze → silver → gold) to produce a clean, analytics-ready star schema.
-![Architecture](./assets/data_architecture.png)
+<img src="./assets/data_architecture.png" width="600">
 
 ## Bronze Layer : Raw Ingestion
 
