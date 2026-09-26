@@ -4,7 +4,8 @@ A data warehouse I built to learn data engineering fundamentals, following the "
 
 ## Overview
 
-The project ingests data from 2 different sources (3 tables each) and moves it through a medallion architecture (bronze → silver → gold) to produce a clean, analytics-ready star schema.
+The project ingests data from 2 different sources CRM and ERP (3 tables each) and moves it through a medallion architecture (bronze → silver → gold) to produce a clean, analytics-ready star schema.
+![Architecture](./assets/data_architecture.png)
 
 ## Bronze Layer : Raw Ingestion
 
@@ -29,8 +30,9 @@ The project ingests data from 2 different sources (3 tables each) and moves it t
 - Combines and integrates the data using left joins across the dimensions and fact.
 
 ## Tech Used
-
-T-SQL, Azure Data Studio, SQL Server
+![T-SQL](https://img.shields.io/badge/T--SQL-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+![Azure Data Studio](https://img.shields.io/badge/Azure_Data_Studio-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
 
 ## Status
 
