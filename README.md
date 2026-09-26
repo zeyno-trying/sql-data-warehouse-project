@@ -32,7 +32,6 @@ The project ingests data from 2 different sources CRM and ERP (3 tables each) an
 ## Tech Used
 ![T-SQL](https://img.shields.io/badge/T--SQL-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
 ![Azure Data Studio](https://img.shields.io/badge/Azure_Data_Studio-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
 
 ## Status
 
